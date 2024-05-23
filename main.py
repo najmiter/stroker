@@ -7,7 +7,6 @@ pygame.mixer.init()
 sound_effect = 'stroke2.mp3'
 is_recording = True
 
-# Function to play sound effect
 def play_sound_effect():
     pygame.mixer.music.load(sound_effect)
     pygame.mixer.music.play()
